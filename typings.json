@@ -1,0 +1,5 @@
+{
+  "name": "json-pointer",
+  "main": "json-pointer.d.ts",
+  "ambientDependencies": {}
+}

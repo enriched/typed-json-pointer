@@ -1,0 +1,6 @@
+{
+  "files": [
+    "typings/main.d.ts",
+    "json-pointer.d.ts"
+  ]
+}
