@@ -1,4 +1,4 @@
-declare namespace jsonpointer {
+declare module pointer {
     export interface StaticApi extends Api {
         (object: any): Api;
         (object: any, pointer: string): string;
@@ -19,4 +19,6 @@ declare namespace jsonpointer {
     }
 }
 
-export = jsonpointer.StaticApi;
+declare var pointer: pointer.StaticApi;
+
+export = pointer;
