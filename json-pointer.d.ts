@@ -1,11 +1,11 @@
 declare namespace jsonpointer {
-    interface StaticApi extends Api {
+    export interface StaticApi extends Api {
         (object: any): Api;
         (object: any, pointer: string): string;
         (object: any, pointer: string, value: any): void;
     }
 
-    interface Api {
+    export interface Api {
         get(object: any, pointer: string): any;
         set(object: any, pointer: string, value: any): void;
         remove(object: any, pointer: string): void;
